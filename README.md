@@ -3,8 +3,8 @@ Just Some Templates For The Web Sides
 
 # Janken
 ---
-It's a game of Rock-Paper-Scissor played through the network with the help of Deep Learning for action recognisation.
-This project was created solely for the purpose of Hackathon hackCBS4.0 .
+It's a game of Rock-Paper-Scissor played through the network with the help of Deep Learning for action recognisation.</br>
+This project was created solely for the purpose of Hackathon hackCBS4.0.
 # Table of Contents
 ---
 + **Technologies**
@@ -40,9 +40,9 @@ Step 3: Execute app.py</br>
 
 Step 4: Run the localhost on your machine by pasting the address provided by the command prompt in your browser.
 
-Step 5: Perform the actions within blue box.
-        When the camera stops, press spacebar to get the result.
-        Keep in mind that the spacebar needs to be pressed simultaneously on both the machines within an interval of five seconds.
+Step 5: Perform the actions within blue box.</br>
+        When the camera stops, press spacebar to get the result.</br>
+        Keep in mind that the spacebar needs to be pressed simultaneously on both the machines within an interval of five seconds.</br>
         Enjoy the game!
 
 # Status
