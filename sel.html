@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head> Thanks</head>
+    <body>
+        Lokking further....
+        {% for i in re %}
+        <form action="{{url_for('final')}}" method="POST">  
+        <li>
+            <input type="radio" id="{{i[4]}}" name="subject" value="subject">
+            <label for="{{i[4]}}">Subject {{ i[4] }}
+             Seats {{i[2]}}
+             Time {{i[3]}}</label>
+        </li>
+        {% endfor %}
+        <input type="text" name="enroll" placeholder="Enter enrollno">
+        <input type="test" name="sub" placeholder="Enter Subject name once again">
+        <h3>Just for security purpose</h3>
+        <input type="text" name="seat" placeholder="Enter seat number">
+        <input type="submit" value="Book">
+      </form>
+    </body>
+</html>

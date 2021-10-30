@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head> Selection</head>
+    <body>
+        <div class="container">
+            <h1>Search for class</h1>
+            <form action="{{url_for('sel')}}" method="POST">
+            <div class="box">
+                <input type="text" name="sem" id="sem" placeholder="Enter semester"> 
+            </div>
+            <div class="box">
+                <input type="text" name="day" id="day" placeholder="Enter Day of the week">
+            </div>
+            <button class="btn">Search</button>
+           </form>
+       </div>
+    </body>
+</html>

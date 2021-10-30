@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/94b20ab3c6.js" crossorigin="anonymous"></script>
+    <title>Forms</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
+    <div class="container">
+        <h1>Please fillup the information</h1>
+        <form action="{{url_for('sub')}}" method="POST">
+        <div class="date">
+            <input type="date" name="date" id="date">
+        </div>
+        <div class="box">
+            <input type="text" name="followno" id="followno" placeholder="Enter Your Followno."> 
+        </div>
+        <div class="box">
+            <input type="text" name="naarticles" id="naarticles" placeholder="Enter Name of articles"> 
+        </div>
+        <div class="box">
+            <input type="text" name="voucherno" id="voucherno" placeholder="Enter voucher no"> 
+        </div>
+        <div class="box">
+            <input type="number" name="qua" id="qua" placeholder="Enter quantity"> 
+        </div>
+        <div class="box">
+            <input type="number" name="cos" id="cos" placeholder="Enter cost"> 
+        </div>
+        <div class="box">
+            <input type="number" name="perdepr" id="perdepr" placeholder="Enter percentage of depreceation">
+        </div>
+        <div class="box">
+            <input type="number" name="bal" id="bal" placeholder="Enter balance">
+        </div>
+        <div class="box">
+            <input type="text" name="remar" id="remar" placeholder="Enter any remark">
+        </div>
+        <button class="btn">Submit</button>
+    </form> 
+   </div>
+  </body>
+</html>

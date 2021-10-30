@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/94b20ab3c6.js" crossorigin="anonymous"></script>
+    <title>Registration</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
+    <div class="container">
+        <h1>Register To CLASSEAT</h1>
+        <form action="{{url_for('thank')}}" method="POST">
+        <div class="box">
+            <i class="fa fa-user-circle"></i>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name"> 
+        </div>
+        <div class="box">
+            <i class="fa fa-info"></i>
+            <input type="text" name="Enrollmentno" id="userid" placeholder="Enter Your Enrollmentno"> 
+        </div>
+        <div class="box">
+            <i class="fa fa-phone-square"></i>
+            <input type="text" name="phoneno" id="phoneno" placeholder="Enter Your Phoneno"> 
+        </div>
+        <div class="box">
+            <i class="fa fa-envelope"></i>
+            <input type="email" name="email" id="email" placeholder="Enter Your Emailid"> 
+        </div>
+        <div class="box">
+            <i class="fa fa-info"></i>
+            <input type="text" name="college" id="college" placeholder="Enter Your College Name"> 
+        </div>
+        <div class="box">
+            <i class="fa fa-info"></i>
+            <input type="text" name="branch" id="branch" placeholder="Enter Your Branch"> 
+        </div>
+        <div class="box">
+            <i class="fa fa-info"></i>
+            <input type="text" name="semester" id="sem" placeholder="Enter Your Current Semester"> 
+        </div>
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="password" name="password" id="password" placeholder="Set Your Password">
+        </div>
+        <button class="btn">Sign in</button>
+    </form> 
+   </div>
+  </body>
+</html>

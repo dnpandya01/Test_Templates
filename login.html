@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/94b20ab3c6.js" crossorigin="anonymous"></script>
+    <title>CLASSEAT</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
+    <div class="container">
+         <h1>Login To CLASSEAT</h1>
+         <form action="{{url_for('succes')}}" method="POST">
+         <div class="box">
+            <i class="fa fa-user"></i>
+             <input type="text" name="Enrollmentno" id="userid" placeholder="Enrollmentno"> 
+         </div>
+         <div class="box">
+            <i class="fa fa-key"></i>
+             <input type="password" name="password" id="password" placeholder="Password">
+         </div>
+         <button class="btn">Sign in</button>
+        </form>
+    </div>
+  </body>
+</html>
