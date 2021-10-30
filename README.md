@@ -28,14 +28,14 @@ This game works on a peer - peer connection and hence it requires to be run on t
 
 To run this project on your machine perform the following steps:-
 
-Step 1: Install all the technologies which are mentioned under Technologies Section.
-        Example
+Step 1: Install all the technologies which are mentioned under Technologies Section.</br>
+        Example</br>
         `pip install tensorflow==2.5.0`
 
 Step 2: Download all the files from this repository and keep them in the same hierarchical order.
 
-Step 3: Execute app.py 
-        Example
+Step 3: Execute app.py</br> 
+        Example</br>
         `python app.py`
 
 Step 4: Run the localhost on your machine by pasting the address provided by the command prompt in your browser.
